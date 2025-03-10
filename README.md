@@ -3,7 +3,7 @@ Football tactics tool allowing you to create, edit and, visualise football forma
 
 ### To-do
 
-- [ ] Implement field & players
+- [x] Implement field & players
 - [ ] Add opposition team
 - [ ] Add ability to name players
 - [ ] Add function to list out players on the field
