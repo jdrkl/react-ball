@@ -8,9 +8,11 @@ export function Player() {
 
   return (
     <Draggable nodeRef={nodeRef}>
-      <div className='player'
+      <div 
+        className='player'
         ref={nodeRef}
-      ></div>
+      >
+      </div>
     </Draggable>
   );
 }
@@ -30,17 +32,19 @@ export default function Field() {
       
       <div className='half-line'></div>
 
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
-      <Player />
+      <div className='player-container'>
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+        <Player />
+      </div>
     </div>
   );
 }
